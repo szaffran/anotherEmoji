@@ -14,6 +14,14 @@ class EmojiTableViewCell: UITableViewCell {
     @IBOutlet weak var descriptionLbl: UILabel!
     @IBOutlet weak var symbolLbl: UILabel!
     
+    func update (with emoji: Emoji){
+        symbolLbl.text = emoji.symbol
+        nameLbl.text = emoji.name
+        descriptionLbl.text = emoji.description
+        
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
