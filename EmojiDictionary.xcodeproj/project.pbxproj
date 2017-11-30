@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976D13B11FD03A2700CFD9B3 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976D13B01FD03A2700CFD9B3 /* EmojiTableViewCell.swift */; };
 		E37E46011FCCA53000918EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37E46001FCCA53000918EB9 /* AppDelegate.swift */; };
 		E37E46061FCCA53000918EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37E46041FCCA53000918EB9 /* Main.storyboard */; };
 		E37E46091FCCA53000918EB9 /* EmojiDictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E37E46071FCCA53000918EB9 /* EmojiDictionary.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		976D13B01FD03A2700CFD9B3 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		E37E45FD1FCCA53000918EB9 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37E46001FCCA53000918EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E37E46051FCCA53000918EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		E37E461B1FCCA75200918EB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				976D13B01FD03A2700CFD9B3 /* EmojiTableViewCell.swift */,
 				E37E46191FCCA74D00918EB9 /* EmojiTableViewController.swift */,
 			);
 			path = Controllers;
@@ -168,6 +171,7 @@
 			files = (
 				E37E461A1FCCA74D00918EB9 /* EmojiTableViewController.swift in Sources */,
 				E37E46161FCCA5C400918EB9 /* Emoji.swift in Sources */,
+				976D13B11FD03A2700CFD9B3 /* EmojiTableViewCell.swift in Sources */,
 				E37E46091FCCA53000918EB9 /* EmojiDictionary.xcdatamodeld in Sources */,
 				E37E46011FCCA53000918EB9 /* AppDelegate.swift in Sources */,
 			);
@@ -309,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VVP6G8S3J;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.EmojiDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VVP6G8S3J;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roncode.EmojiDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
